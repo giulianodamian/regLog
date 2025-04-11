@@ -1,0 +1,59 @@
+RELATÓRIO DE ANÁLISE ESTATÍSTICA
+==================================================
+
+
+=== ANÁLISE UNIVARIADA ===
+
+Resultados Univariados:
+              Variable  Coefficient  Standard Error       P-value
+                   age     0.008976        0.001456  7.047117e-10
+              duration     0.003656        0.000059  0.000000e+00
+              campaign    -0.125453        0.009194  2.150360e-42
+                 pdays    -0.002871        0.000057  0.000000e+00
+              previous     0.951636        0.024349  0.000000e+00
+          emp_var_rate    -0.562264        0.010176  0.000000e+00
+        cons_price_idx    -0.738439        0.027131 3.994878e-163
+         cons_conf_idx     0.036907        0.003321  1.079463e-28
+             euribor3m    -0.536476        0.009547  0.000000e+00
+           nr_employed    -0.013261        0.000208  0.000000e+00
+       job_blue-collar    -0.660910        0.044385  3.813656e-50
+      job_entrepreneur    -0.322327        0.095287  7.177709e-04
+         job_housemaid    -0.136868        0.103598  1.864513e-01
+        job_management    -0.004077        0.060768  9.465066e-01
+           job_retired     1.040096        0.057860  3.001073e-72
+     job_self-employed    -0.083636        0.088039  3.421181e-01
+          job_services    -0.393241        0.060277  6.852112e-11
+           job_student     1.328410        0.074563  5.324530e-71
+        job_technician    -0.053263        0.042716  2.124242e-01
+        job_unemployed     0.274541        0.091290  2.635265e-03
+           job_unknown    -0.016468        0.175914  9.254166e-01
+       marital_married    -0.275754        0.031379  1.524222e-18
+        marital_single     0.360812        0.032962  6.918025e-28
+       marital_unknown     0.330766        0.313420  2.912669e-01
+ education_high_school    -0.056584        0.037423  1.305326e-01
+  education_illiterate     0.813278        0.566900  1.513997e-01
+education_professional     0.009533        0.046630  8.380009e-01
+  education_university     0.333220        0.032697  2.171408e-24
+     education_unknown     0.303942        0.070112  1.456997e-05
+       default_unknown    -1.000900        0.051511  4.251686e-84
+           default_yes    -0.000255        1.826324  9.998886e-01
+       housing_unknown    -0.049903        0.103656  6.302105e-01
+           housing_yes     0.074608        0.031262  1.700752e-02
+          loan_unknown    -0.049903        0.103656  6.302105e-01
+              loan_yes    -0.039769        0.043918  3.651868e-01
+     contact_telephone    -1.141469        0.040561 2.978424e-174
+             month_aug    -0.079764        0.044620  7.383400e-02
+             month_dec     2.036880        0.149117  1.768318e-42
+             month_jul    -0.289843        0.044472  7.151333e-11
+             month_jun    -0.088414        0.047695  6.377910e-02
+             month_mar     2.142851        0.087086 1.081995e-133
+             month_may    -0.836195        0.038925 2.288719e-102
+             month_nov    -0.129707        0.054242  1.679103e-02
+             month_oct     1.878022        0.076902 1.026933e-131
+             month_sep     1.910350        0.085703 4.576568e-110
+       day_of_week_mon    -0.172930        0.040116  1.627125e-05
+       day_of_week_thu     0.105491        0.037438  4.835621e-03
+       day_of_week_tue     0.063133        0.038661  1.024692e-01
+       day_of_week_wed     0.049507        0.038703  2.008410e-01
+  poutcome_nonexistent    -1.321821        0.035478 7.909043e-304
+      poutcome_success     2.888548        0.059167  0.000000e+00
